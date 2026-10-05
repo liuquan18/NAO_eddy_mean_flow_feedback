@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="schematic_eddy_mean.png" width="240">
+</p>
+
 # NAO eddy–mean-flow feedback
 
 Code for the paper:
