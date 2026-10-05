@@ -1,2 +1,25 @@
-pytest
-sphinx
+# Pinned to the versions in the air_sea environment used for the paper
+numpy==1.26.4
+pandas==2.2.2
+xarray==2025.7.1
+scipy==1.14.0
+dask[distributed]==2024.6.2
+dask-jobqueue==0.8.5
+bottleneck==1.4.0
+netCDF4==1.7.1
+cftime==1.6.4
+matplotlib==3.8.4
+seaborn==0.13.2
+cartopy==0.23.0
+cmocean==4.0.3
+shapely==2.0.4
+geopandas==1.0.1
+metpy==1.6.3
+eofs==1.4.1
+scikit-learn==1.5.0
+tqdm==4.66.5
+mpi4py==3.1.6
+cdo==1.6.1
+wavebreaking==0.3.8
+easyclimate==2025.2.0
+pytest==8.3.4

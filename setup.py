@@ -1,11 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='second_project',
-    version='0.0.1',
-    packages=find_packages(),
-    install_requires=[
-        'pytest',
-        'sphinx',
-    ],
+    name="nao_eddy_mean_flow_feedback",
+    version="1.0.0",
+    packages=find_packages(include=["src", "src.*"]),
+    python_requires=">=3.12",
 )
