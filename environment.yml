@@ -1,27 +1,10 @@
 name: air_sea
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
-    - python>=3.12
-    - pytest
-    - sphinx
-    - numpy 
-    - pandas
-    - matplotlib
-    - cartopy
-    - dask 
-    - netCDF4 
-    - bottleneck
-    - pip
-    - nbsphinx
-    - ipywidgets
-    - pip:
-        - myst_parser
-        - mdutils
-        - aiohttp-requests
-        - xarray[complete]
-        - dask_jobqueue
-        - eofs
-        - scikit-learn
-
-        
+  - python=3.12.4
+  - cdo=2.4.1
+  - pip
+  - pip:
+      - -r requirements.txt
+      - -e .
